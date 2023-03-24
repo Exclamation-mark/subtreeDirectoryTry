@@ -1,6 +1,6 @@
 targets:
   - name: target
     sources:
-      - /l10n/*.json
+      - /
     file: /%language%-%two_letters_code%.json
     format: macosx

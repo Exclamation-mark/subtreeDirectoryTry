@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Exclamation-mark/subtreeDirectoryTry#readme",
   "dependencies": {
-    "@crowdin/cli": "^3.10.1"
+    "@crowdin/cli": "^3.10.1",
+    "@types/node": "^18.15.7",
+    "dotenv": "^16.0.3"
   }
 }

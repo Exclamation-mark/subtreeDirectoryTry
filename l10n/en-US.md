@@ -17,8 +17,8 @@ In conclusion, Markdown is an awesome tool that is easy to learn, portable, effi
 
 Are you here？
 
-I want to eat apple.
+I want to eat banana.
 
-I add a sentence.
+I add a sentence to make you clearly.
 
 I am 13 years old.

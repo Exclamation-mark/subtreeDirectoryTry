@@ -1,3 +1,0 @@
-files:
-  - source: /l10n/*.json
-    translation: /l10n//%language%-%two_letters_code%.json

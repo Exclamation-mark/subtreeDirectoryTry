@@ -1,6 +1,3 @@
-targets:
-  - name: target
-    sources:
-      - /l10n/*.json
-    file: /%language%-%two_letters_code%.json
-    format: macosx
+files:
+  - source: /l10n/*.json
+    translation: /l10n//%language%-%two_letters_code%.json

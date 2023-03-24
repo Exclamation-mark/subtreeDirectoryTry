@@ -1,5 +1,5 @@
 files:
-  - source: /l10n/*.json
+  - source: /l10n/en-US.json
     translation: /l10n/%locale%.json
-  - source: /l10n/*.md
+  - source: /l10n/en-US.md
     translation: /l10n/%locale%.md

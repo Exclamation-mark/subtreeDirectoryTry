@@ -1,0 +1,22 @@
+{
+  "name": "subtreedirectorytry",
+  "version": "1.0.0",
+  "description": "crowdin and subtree try",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Exclamation-mark/subtreeDirectoryTry.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Exclamation-mark/subtreeDirectoryTry/issues"
+  },
+  "homepage": "https://github.com/Exclamation-mark/subtreeDirectoryTry#readme",
+  "dependencies": {
+    "@crowdin/cli": "^3.10.1"
+  }
+}

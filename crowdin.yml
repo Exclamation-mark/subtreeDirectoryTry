@@ -1,0 +1,6 @@
+targets:
+  - name: target
+    sources:
+      - '*.json'
+    file: /%language%-%two_letters_code%.json
+    format: macosx

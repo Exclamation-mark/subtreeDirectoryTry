@@ -1,8 +1,9 @@
 {
-  "welcome": "Hello World",
-  "ki": "This is Canada",
-  "we": "we are here",
-  "ok": "ok",
+  "welcome": "你好世界",
+  "ki": "这是加拿大",
+  "we": "我们在这里",
+  "ok": "确定",
   "cancel": "取消",
+  "confirm": "确认",
   "ko": "我想要你"
 }

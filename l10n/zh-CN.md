@@ -1,11 +1,11 @@
-# Why Markdown is Awesome
-Markdown is a popular markup language that is widely used for formatting and styling text on the web. Here are a few reasons why Markdown is awesome:
+# 为什么Markdown太棒了
+Markdown 是一个流行的标记语言，广泛用于网络上的格式化和样式文本。 下面是Markdown太棒的几个原因：
 
-# Easy to Learn
-Markdown is incredibly easy to learn. It uses simple syntax and is highly readable, even for people who have never used it before. With just a few basic commands, you can format your text, add headings, create lists, and more.
+# 轻松学习
+Markdown 非常容易学习。 它使用简单的语法并且很容易读取，即使对于以前从未使用过它的人来说也是如此。 只要有几个基本命令，您就可以格式化您的文本，添加标题，创建列表等等。
 
-# Portable
-One of the great things about Markdown is that it's portable. You can write your Markdown text in any text editor, and it can be easily converted to HTML, PDF, or other formats. This makes it a great choice for anyone who needs to create content that can be easily shared across multiple platforms.
+# 便携式设备
+有关Markdown的伟大事情之一是它是可以搬运的。 您可以在任何文本编辑器中写下您的Markdown 文本，它可以轻松转换为 HTML、PDF 或其他格式。 This makes it a great choice for anyone who needs to create content that can be easily shared across multiple platforms.
 
 # Efficient
 Markdown is incredibly efficient. Since it uses plain text formatting, you don't need to worry about using a lot of memory or processing power to format your text. This makes it a great choice for anyone who wants to create content quickly and easily.
@@ -15,4 +15,6 @@ Markdown is also incredibly versatile. You can use it for a wide range of applic
 
 In conclusion, Markdown is an awesome tool that is easy to learn, portable, efficient, and versatile. Whether you're a blogger, a technical writer, or just someone who wants to create content for the web, Markdown is definitely worth checking out.
 
-Are you here
+Are you here？
+
+I want to eat apple.

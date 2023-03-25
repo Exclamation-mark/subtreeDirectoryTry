@@ -17,8 +17,8 @@
 #
 files: [
  {
-  "source" : "/l10n/en-US.json",
-  "translation" : "/l10n/%locale%.json",
+  "source" : "/l10n/**/*.json",
+  "translation" : "%original_path%/%locale%.json",
  },
  {
   "source" : "/l10n/en-US.md",

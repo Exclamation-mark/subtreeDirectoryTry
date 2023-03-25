@@ -60,6 +60,9 @@ function writeEnvFile(envFilePath: string, envEntries: EnvEntry[]) {
  * Recursively traverse all .env files under a directory and read the key-value pairs and their comments.
  */
 function traverseEnvFiles(dirPath: string): EnvEntry[] {
+    if (!dirPath) {
+        return [];
+    }
     const envEntries: EnvEntry[] = [];
 
     const files = fs.readdirSync(dirPath);
@@ -82,7 +85,6 @@ function traverseEnvFiles(dirPath: string): EnvEntry[] {
  * Merge multiple arrays of EnvEntry objects into one, and remove duplicate keys.
  */
 function mergeEnvEntries(envEntriesList: EnvEntry[][]): EnvEntry[] {
-    console.log('zzq see', envEntriesList);
     const envEntriesMap = new Map<string, EnvEntry>();
     for (const envEntries of envEntriesList) {
         for (const envEntry of envEntries) {
@@ -108,7 +110,7 @@ function mergeEnvEntries(envEntriesList: EnvEntry[][]): EnvEntry[] {
  * Main function
  */
 function main() {
-    const [dirPath1, dirPath2, outPath] = process.argv.slice(2);
+    const [outPath, dirPath1, dirPath2] = process.argv.slice(2);
 
     // Read the keys, values, and comments from the ".env" files in the two directories specified
     const envEntries1 = traverseEnvFiles(dirPath1);

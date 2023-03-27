@@ -1,5 +1,27 @@
-files:
-  - source: /l10n/en-US.json
-    translation: /l10n/%locale%.json
-  - source: /l10n/en-US.md
-    translation: /l10n/%locale%.md
+#
+# Your Crowdin credentials
+#
+"project_id" : "576619"
+"api_token" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJ3UUVxdmhVM3ZMT2EyWGljbVV5VCIsImp0aSI6ImI0ZjkyMjc1YTE3NTM0ZWViNjZlYmVhZWYwYThjYmY0MTA5YzBiODY3ODNlOGUyMzQ1YzliOGQyOGJhNzRjY2M3OTIwMmE3NzgwZTQxMjlmIiwiaWF0IjoxNjc5NjgzNjQ5Ljk1NDY2NiwibmJmIjoxNjc5NjgzNjQ5Ljk1NDY3LCJleHAiOjE2ODIyNzU2NDkuODgyNTc3LCJzdWIiOiIxNTcxNjUzMSIsInNjb3BlcyI6WyJwcm9qZWN0Il0sImRvbWFpbiI6bnVsbCwiYXNzb2NpYXRpb25zIjpbIioiXSwic2Vzc2lvbiI6MH0.nRluHKs8pCPk5s6ZvH2vM1CgX5NVXIyxba99NfKuKHRYHYz3-Qce-VgkWIg4399kWvFq1WWewZSzWfzjLSimxgQ_YOPZFAajm34vQ8avPfe9vHEOUR14pRfKP9-DkUBYoJGgO4jIlQBncDCgr2nvPfZ3yL6PS2S6ILt3GVVBovJ4UqMgSG5KhbxEeZVPjhwxH5y08_WF_QXMiT1jJ_sGjUuDhoLjr2dM4lttgxGUdVut-X-_dsVBxTJprftzq7auEibmVNqcRlj65U7winwH9yrCDEVFyVYFmsiJU5i6DEO006BFZ0Hcag3G_CZC5g0d-di1HlUcX86cB4FzCbeMrWF0ZjwpophdCu07InhZqX-_I6YM5x3196pVJGc2Wdo-pdUlp_u98n0PrHBfG112P0Y6-nRNJprvww1xLt8XLVon7cEX8kdVL1iCFdwxFcr8ph6fljdznIjARv44UWs310Zk-EF-MOJ4oSrQX9AxXs2yioYenCAax0jQ_As_VC606Y74Tyf4HuM9A9l1tspbfUPVKEvIFTP2_9oyPo0q2zG5t453m2E_sD5VX9IcLX6sg_w1L92o_UPbyo_7QYvkOphxi376sAHdM_OBFMt98J4MAqQE2z3PPKSej35xHJU_SvKfdlfVpqN2BgE0C94UALG68D4b1YdbYV4t_KrusQk"
+"base_path" : "."
+"base_url" : "https://api.crowdin.com"
+
+#
+# Choose file structure in Crowdin
+# e.g. true or false
+#
+"preserve_hierarchy": true
+
+#
+# Files configuration
+#
+files: [
+ {
+  "source" : "/l10n/**/*.json",
+  "translation" : "%original_path%/%locale%.json",
+ },
+ {
+  "source" : "/l10n/en-US.md",
+  "translation" : "/l10n/%locale%.md",
+ }
+]
